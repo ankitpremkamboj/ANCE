@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="The World of Professionals is
+         an independent international organization
+         committed to providing a platform for
+          Professionals in all diverse sector of
+          industries in engaging and empowering
+          through business and education. We are
+          supported by leaders from all over the world
+           to think alike and support the World of Professionals vision
+            incorporated to bring about a change in the world through the
+             power of individual professional background, headquartered in
+             Bangkok, Thailand.World of Professional's commitment in educating,
+              and refining professionals have resulted to a handful of
+              innovations, and conferences; this include the renowned
+               Asian Networkers Convention and Expo (ANCE) now on its third year. The Asian Networkers Convention  Expo, the largest Networking event in the world, is focused on maintaining the high level
+                quality and advancement of Distributors through education and seminar.
+                This event aims to unite the Network Marketing industry in eliminating
+                the prejudice the common mass have in the industry.About ANCE 2013:" />
+
+
+    <TextView
+        android:id="@+id/vm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIEWMORE"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp" />
+
+</LinearLayout>

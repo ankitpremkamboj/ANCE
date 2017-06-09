@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinateLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.innoapps.eventmanagement.common.friends.FriendsActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include
+            android:id="@+id/header"
+            layout="@layout/friend_header_layout" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewFriend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/header"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/speaker_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:src="@drawable/speakers_international_all_2" />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

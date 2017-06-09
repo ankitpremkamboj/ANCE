@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinateLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/header_layout"
+            layout="@layout/header_layout" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_layout"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/txt_lucy_draw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/hurry_for_lucy_draw"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/edt_tickt_number"
+                android:layout_width="230dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/txt_lucy_draw"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/border_for_addremove"
+                android:hint="Entry your ticket number"
+                android:imeOptions="actionDone"
+                android:paddingLeft="10dp"
+                android:paddingRight="50dp"
+                android:singleLine="true"
+                android:textColorHint="#b2b3b5"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/btn_send"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/txt_lucy_draw"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/edt_tickt_number"
+                android:background="@drawable/send_button"
+                android:text="Send"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+            <View
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/btn_send"
+                android:layout_marginTop="16dp"
+                android:background="@color/alpha_black" />
+
+            <TextView
+                android:id="@+id/txt_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/line1"
+                android:background="#f7f7fb"
+                android:paddingBottom="13dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="20dp"
+                android:paddingTop="13dp"
+                android:text="Last Winners List" />
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/txt_list"
+                android:background="@color/alpha_black" />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewFriend"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/line2"
+                android:layout_marginTop="10dp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

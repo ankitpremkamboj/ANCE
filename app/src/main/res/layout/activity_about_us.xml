@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.innoapps.eventmanagement.common.aboutus.AboutUsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/header"
+            layout="@layout/header_layout" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/header"
+            android:fillViewport="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/txt_about_ance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/about_ance"
+                    android:textColor="#48354b"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:id="@+id/txt_about_ance_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_about_ance"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/about_ance_description"
+                    android:textColor="#9495aa"
+                    android:textSize="14dp" />
+
+
+                <TextView
+                    android:id="@+id/txt_objective"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_about_ance_description"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/convention_objective"
+
+                    android:textColor="#48354b"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:id="@+id/txt_objective_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_objective"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/objective_description"
+
+                    android:textColor="#9495aa"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/txt_attend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_objective_description"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/who_should_attend"
+                    android:textColor="#48354b"
+                    android:textSize="20dp" />
+
+
+                <TextView
+                    android:id="@+id/txt_attend_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_attend"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/attend_description"
+                    android:textColor="#9495aa"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/txt_details_ance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_attend_description"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="35dp"
+                    android:padding="3dp"
+                    android:text="@string/detail_ance"
+                    android:textColor="@color/add_color"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/line"
+                    android:layout_width="210dp"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/txt_details_ance"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/add_color" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/line"></LinearLayout>
+
+            </RelativeLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/coordinateLayout"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.innoapps.eventmanagement.common.sponsors.SponsorsActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <include
+            android:id="@+id/header"
+            layout="@layout/friend_header_layout" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewFriend"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/header"
+            android:layout_marginTop="10dp" />
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

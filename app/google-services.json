@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "325475230902",
+    "firebase_url": "https://ance-497f9.firebaseio.com",
+    "project_id": "ance-497f9",
+    "storage_bucket": "ance-497f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325475230902:android:2574173face225b0",
+        "android_client_info": {
+          "package_name": "com.innoapps.eventmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325475230902-dka4njsb6s6emdaqf5pin26ocgohlv8o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.innoapps.eventmanagement",
+            "certificate_hash": "48186cf0a63b10c92c212e8f3310ce3f8da12b7b"
+          }
+        },
+        {
+          "client_id": "325475230902-n8gl8f61oueelhq5dh9f8pgr37t1k645.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiIXXzQf43SY9WguSHFgGRwJ5v5OTAP04"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325475230902-n8gl8f61oueelhq5dh9f8pgr37t1k645.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
